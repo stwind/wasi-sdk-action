@@ -8,11 +8,6 @@ inputs:
     required: true
     default: --help
 
-# # Define your outputs here.
-# outputs:
-#   time:
-#     description: The time we greeted you
-
 runs:
   using: docker
   image: Dockerfile
