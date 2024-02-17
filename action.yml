@@ -1,0 +1,20 @@
+name: Run wasi-sdk
+description: Build Webassembly using wasi-sdk
+author: Zihuo Ng
+
+inputs:
+  args:
+    description: Arguments to wasi-sdk's clang
+    required: true
+    default: --help
+
+# # Define your outputs here.
+# outputs:
+#   time:
+#     description: The time we greeted you
+
+runs:
+  using: docker
+  image: Dockerfile
+  args:
+    - ${{ inputs.args }}
