@@ -1,6 +1,6 @@
 name: Run wasi-sdk
 description: Build Webassembly using wasi-sdk
-author: Zihuo Ng
+author: Zihou Ng
 
 inputs:
   args:
