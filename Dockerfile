@@ -1,6 +1,6 @@
 FROM ubuntu:23.10
 
-ARG WASI_VERSION=21
+ARG WASI_VERSION=22
 ENV WASI_VERSION=${WASI_VERSION}
 
 RUN apt-get -yqq update && \
