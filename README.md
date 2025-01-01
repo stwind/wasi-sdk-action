@@ -7,5 +7,5 @@ Build Webassembly using [wasi-sdk](https://github.com/WebAssembly/wasi-sdk).
 Building image
 
 ```sh
-docker build --platform linux/x86_64 --build-arg WASI_VERSION=22 -t wasi-sdk:22.0 .
+docker build --platform linux/x86_64 --build-arg WASI_VERSION=25 -t wasi-sdk:25.0 .
 ```
